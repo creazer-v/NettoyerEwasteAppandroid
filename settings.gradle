@@ -1,0 +1,2 @@
+rootProject.name='Nettoyer'
+include ':app'
