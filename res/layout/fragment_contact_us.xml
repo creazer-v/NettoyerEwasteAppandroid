@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkmode"
+    tools:context=".ui.contact_us">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="300dp"
+       android:orientation="vertical"
+
+
+       >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Contact Info"
+           android:textSize="20dp"
+           android:shadowColor="@color/solidblck"
+           android:shadowRadius="10"
+           android:textColor="@color/solid_white"
+           android:layout_gravity="center_horizontal"
+           android:layout_marginTop="50dp"/>
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingTop="30dp"
+           android:paddingLeft="50dp"
+           >
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="18sp"
+               android:text="Phone:     "
+               android:drawablePadding="10dp"
+               android:drawableStart="@drawable/ic_phone_black_24dp"
+               android:drawableTint="@color/solid_white"
+              android:textColor="@color/solid_white"
+               />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="14sp"
+               android:text="+917259788964"
+               android:textColor="@color/solid_white"
+
+               />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingTop="50dp"
+          android:paddingLeft="50dp"
+
+           >
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="18sp"
+               android:text="Email:     "
+               android:drawableStart="@drawable/ic_email_black_24dp"
+               android:drawableTint="@color/solid_white"
+
+               android:drawablePadding="10dp"
+               android:textColor="@color/solid_white"
+               />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="14sp"
+               android:text="MahendraMahi132@Hotmail.com"
+               android:textColor="@color/solid_white"
+
+               />
+       </LinearLayout>
+
+   </LinearLayout>
+</FrameLayout>

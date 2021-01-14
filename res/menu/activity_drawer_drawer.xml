@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single"
+        android:visible="true">
+        <item
+            android:id="@+id/nav_bookapickup"
+            android:icon="@drawable/ic_local_shipping_black_24dp"
+            android:title="Book A Pickup"
+            />
+        <item
+            android:id="@+id/nav_myprofile"
+
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My Profile"
+            />
+        <item
+            android:id="@+id/nav_centre"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="Find Centre" />
+        <item
+            android:id="@+id/nav_Info"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="Information" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_phone_black_24dp"
+            android:title="Contact Us " />
+
+
+
+    </group>
+</menu>

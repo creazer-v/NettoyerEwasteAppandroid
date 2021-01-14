@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkmode"
+    android:focusable="true" android:focusableInTouchMode="true"
+    tools:context=".user_profile">
+
+    <!--Button for uploading image-->
+
+
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:text="Upload"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+
+    <!--Image View for showing image choosen from gallery-->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="140dp">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/ic_businessman"
+        />
+    <ImageView
+        android:id="@+id/btnChoose"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+android:src="@drawable/ic_add"
+
+
+        android:layout_alignEnd="@id/profile_image"
+        android:layout_alignBottom="@id/profile_image"
+        />
+</RelativeLayout>
+</RelativeLayout>
+    <TextView
+        android:id="@+id/user_name1"
+        android:layout_width="246dp"
+        android:layout_height="55dp"
+
+android:fontFamily="sans-serif-thin"
+       android:gravity="center"
+        android:text="Username"
+        android:textColor="@color/solid_white"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:shadowColor="@color/solidblck"
+        android:shadowRadius="10"
+        android:layout_marginTop="100dp"
+
+        />
+
+    <TextView
+        android:id="@+id/my_email"
+        android:layout_width="246dp"
+        android:layout_height="55dp"
+
+
+        android:gravity="center"
+        android:text="sample@gmail.com"
+        android:textColor="@color/textbg"
+        android:textSize="14sp"
+android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"/>
+
+    <ProgressBar android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:id="@+id/pgbar1"
+        android:visibility="gone"
+        android:foregroundTint="@color/solid_white"
+     android:layout_marginTop="170dp"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="30dp">
+    <EditText
+
+        android:id="@+id/fullname"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/solid_white"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/textbg"
+        android:hint="Full Name"
+        android:paddingLeft="10dp"
+        android:maxLength="50"
+        android:textColor="@color/textbg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+
+
+        android:textColorHint="@color/textbg"
+        android:textSize="14sp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/phoneno"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+
+
+        android:backgroundTint="@color/solid_white"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/textbg"
+        android:maxLength="12"
+        android:hint="Phone no"
+        android:paddingLeft="10dp"
+
+        android:textColor="@color/textbg"
+        android:textColorHint="@color/textbg"
+android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="300dp"
+
+
+        android:layout_height="80dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:backgroundTint="@color/solid_white"
+        android:drawableLeft="@drawable/ic_location_on_black_24dp"
+        android:drawablePadding="10dp"
+        android:maxLength="255"
+        android:drawableTint="@color/textbg"
+        android:hint="Address"
+        android:paddingLeft="10dp"
+
+        android:textColor="@color/textbg"
+
+
+        android:textColorHint="@color/textbg"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/pin"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="385dp">
+
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:id="@+id/pincode"
+            android:maxLength="6"
+            android:backgroundTint="@color/solid_white"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/textbg"
+            android:hint="PinCode"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+
+            android:textColor="@color/textbg"
+            android:textColorHint="@color/textbg"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+
+            android:backgroundTint="@color/solid_white"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/textbg"
+            android:hint="LandMark"
+            android:paddingLeft="10dp"
+            android:maxLength="50"
+            android:textColor="@color/textbg"
+            android:textColorHint="@color/textbg"
+            android:textSize="14sp"
+            android:id="@+id/landmark"
+            />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+    <Button
+        android:id="@+id/apply"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+
+
+
+        android:layout_marginTop="500dp"
+        android:background="@drawable/squircle_button"
+        android:backgroundTint="@color/litegreen"
+android:textSize="14sp"
+        android:enabled="true"
+android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="20dp"
+        android:text="Apply Changes"
+        android:textColor="@color/solid_white" />
+
+
+
+
+
+</FrameLayout>

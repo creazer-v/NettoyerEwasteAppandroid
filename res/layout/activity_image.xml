@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkmode"
+
+    tools:context=".image">
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:scrollbarSize="20dp"
+        android:paddingLeft="10dp"
+        android:tint="@color/litegreen"
+
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="400dp"
+            android:layout_height="229dp"
+
+            android:layout_marginTop="64dp"
+            android:scrollbarSize="20dp"
+            android:src="@drawable/maxresdefault"
+             />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="172dp"
+            android:src="@drawable/simpleimage" />
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Version :      0.1.0"
+    android:textSize="18sp"
+    android:layout_gravity="center"
+
+    android:textColor="@color/solid_white"
+    />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App in testing (Beta)"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/solid_white"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

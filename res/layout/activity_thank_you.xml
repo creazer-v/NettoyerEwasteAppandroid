@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thank_you"
+    android:background="@color/darkmode">
+
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/thank_you"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/viewview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="60dp"
+        android:hint="Details"
+        android:shadowColor="#F068FF"
+        android:shadowRadius="20"
+        android:textColor="@color/solid_light_color"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="150dp"
+        android:shadowColor="#F068FF"
+        android:shadowRadius="20"
+        android:text="@string/we_will_contact_you_soon"
+        android:textColor="@color/solid_light_color"
+        android:textSize="20dp" />
+</FrameLayout>
